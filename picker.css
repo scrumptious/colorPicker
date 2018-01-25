@@ -1,0 +1,97 @@
+#canvas {
+  margin-left: 200px;
+  margin-top: 100px;
+  width: 640px;
+  height: 320px; }
+
+h1 {
+  font-family: Roboto;
+  text-align: center;
+  width: 100%;
+  color: #1655c7; }
+
+label[for="normal"] {
+  left: 224px; }
+
+label[for="light"] {
+  left: 304px; }
+
+label[for="dark"] {
+  left: 374px; }
+
+input[type="radio"]:nth-of-type(1) {
+  margin-left: 200px; }
+
+input[type="radio"]:nth-of-type(2) {
+  margin-left: 60px; }
+
+input[type="radio"]:nth-of-type(3) {
+  margin-left: 50px; }
+
+h1 + p {
+  font-size: 20px;
+  margin-left: 60px; }
+
+input[type="text"] {
+  position: absolute;
+  width: 40px; }
+
+label {
+  position: absolute; }
+
+label[for="red"] {
+  top: 160px;
+  left: 860px; }
+
+input[name="red"] {
+  top: 160px;
+  left: 890px; }
+
+label[for="green"] {
+  top: 190px;
+  left: 860px; }
+
+input[name="green"] {
+  top: 190px;
+  left: 890px; }
+
+label[for="blue"] {
+  top: 220px;
+  left: 860px; }
+
+input[name="blue"] {
+  top: 220px;
+  left: 890px; }
+
+label[for="alpha"] {
+  top: 250px;
+  left: 860px; }
+
+input[name="alpha"] {
+  top: 250px;
+  left: 890px; }
+
+label[for="hex"] {
+  top: 280px;
+  left: 875px; }
+
+input[name="hex"] {
+  top: 280px;
+  left: 890px; }
+
+.colorDiv p {
+  font-size: 20px;
+  font-family: Roboto;
+  margin-left: 60px; }
+
+.colorSquare {
+  position: relative;
+  float: right;
+  top: -250px;
+  right: 300px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border: 1px dashed black; }
+
+/*# sourceMappingURL=picker.css.map */

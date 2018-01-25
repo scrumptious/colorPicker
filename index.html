@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple color picker - canvas version</title>
+	<link rel="stylesheet" href="picker.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<h1>Pick a color</h1>
+	<p>Choose lighter or darker shades</p>
+	<div class="darkness">
+		<label for="normal">normal</label><input type="radio" name="darkness" value="normal">
+		<label for="light">light</label><input type="radio" name="darkness" value="light">
+		<label for="dark">dark</label><input type="radio" name="darkness" value="dark">
+	</div>
+	<canvas id="canvas" width="640px" height="320px">Your browser does not support Canvas!</canvas>
+	<form action="">
+		<label for="red">R :</label><input type="text" name="red" disabled>
+		<label for="green">G :</label><input type="text" name="green" disabled>
+		<label for="blue">B :</label><input type="text" name="blue" disabled>
+		<label for="hex"># </label><input type="text" name="hex">
+	</form>
+	<div class="colorSquare"></div>
+	<div class="colorDiv">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam repudiandae numquam earum error aut deleniti iusto tempore delectus ad praesentium illum laudantium dolorem reprehenderit, nisi expedita vero facilis dolor sint accusamus. Dolorum reiciendis maiores vel, rem labore nulla incidunt, repudiandae, sapiente quas optio assumenda, consequuntur accusamus unde dignissimos. Dignissimos, temporibus?</p>
+	</div>
+
+
+	<script src="colorPicker.js"></script>
+</body>
+</html>
