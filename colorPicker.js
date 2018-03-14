@@ -203,8 +203,8 @@ function selectSquare(x, y) {
 		generalInfo.lastClickY = y;
 }
 function canvasClick(e) {
-	var mouseX = e.clientX - picker.offsetX;
-	var mouseY = e.clientY - picker.offsetY;
+	var mouseX = e.pageX - picker.offsetX;
+	var mouseY = e.pageY - picker.offsetY;
 	let color = getColorsFromData(mouseX, mouseY);
 	let hexColor = rgbToHex(color[0], color[1], color[2]);
 	if(hexColor!='000000') {
